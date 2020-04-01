@@ -1,0 +1,14 @@
+﻿<Window x:Class="CECS448.Prototype2.Account"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CECS448.Prototype2"
+        mc:Ignorable="d"
+        Title="Account" Height="450" Width="800">
+    <Grid>
+        <Label FontSize="18" Content= "Welcome! You can add social media accounts to your profile and view your personalied statistics." HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="6,0,0,350.667" Height="37" Width="786"/>
+        <Button x:Name="socialMedia" Click="Button_Click" Content="Add Soical Media Accounts" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="375" Margin="389,233,0,0" Height="119"/>
+        <Button x:Name="statistics" Click="Button_Click" Content="View Statistics" FontSize ="50" HorizontalAlignment="Left" VerticalAlignment="Top" Width="318" Margin="29,232,0,0" Height="116"/>
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="CECS448.Prototype2.Add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CECS448.Prototype2"
+        mc:Ignorable="d"
+        Title="Add" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Twitter" Click ="Button_Click" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="536,252,0,0" Height="154">
+            <Image Source="C:\Users\lllf5\OneDrive\Documents\CECS 448\Project-Prototype2\CECS448.Prototype2\CECS448.Prototype2\Resources\Twitter.png" Height="150" Width="128"></Image>
+        </Button>
+        <Button x:Name="Linkedin" Click ="Button_Click" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="320,254,0,0" Height="154">
+            <Image Source="C:\Users\lllf5\OneDrive\Documents\CECS 448\Project-Prototype2\CECS448.Prototype2\CECS448.Prototype2\Resources\linkedin.png"></Image>
+        </Button>
+        <Button x:Name="Instagram" Click ="Button_Click" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="92,254,0,0" Height="154">
+            <Image Source="C:\Users\lllf5\OneDrive\Documents\CECS 448\Project-Prototype2\CECS448.Prototype2\CECS448.Prototype2\Resources\Instagram.png" Height="147" Width="151"></Image>
+        </Button>
+        <Button x:Name="Snapchat" Click ="Button_Click" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="430,91,0,0" Height="155">
+            <Image Source="C:\Users\lllf5\OneDrive\Documents\CECS 448\Project-Prototype2\CECS448.Prototype2\CECS448.Prototype2\Resources\Snapchat.png" Height="145" Width="145"></Image>
+        </Button>
+        <Button x:Name="Facebook" Click ="Button_Click" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="186,89,0,0" Height="155">
+            <Image Source="C:\Users\lllf5\OneDrive\Documents\CECS 448\Project-Prototype2\CECS448.Prototype2\CECS448.Prototype2\Resources\Facebook.png" Height="82" Width="71"></Image>
+        </Button>
+        <Label Content="Choose which social media account to add" FontSize="35" HorizontalAlignment="Left" VerticalAlignment="Top" Height="68" Width="670" Margin="57,8,0,0"/>
+    </Grid>
+</Window>
